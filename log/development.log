@@ -77,3 +77,21 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 16ms (Views: 6.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/articles" for 70.166.207.5 at 2020-01-11 01:43:34 +0000
+Cannot render console from 70.166.207.5! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 721ms (Views: 716.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/new" for 70.166.207.5 at 2020-01-11 01:43:41 +0000
+Cannot render console from 70.166.207.5! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (22.7ms)
+  Rendered articles/new.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 81ms (Views: 56.9ms | ActiveRecord: 1.0ms)
+
+
